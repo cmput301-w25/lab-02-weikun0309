@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /
         cityListView.setOnItemClickListener((parent, view, position, id) -> {
             selectedPosition = position;
             Toast.makeText(MainActivity.this, "Selected: " + cityList.get(position), Toast.LENGTH_SHORT).show();
